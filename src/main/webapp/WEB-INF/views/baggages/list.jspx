@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_team19_domain_Baggage" items="${baggages}" z="LzO4ICiD/UpTAq1IeTqZQZ+ijuw=">
+        <table:table data="${baggages}" id="l_com_roo_team19_domain_Baggage" path="/baggages" z="en0J06HtdIxpBPDwwkKFuTpu+9g=">
+            <table:column id="c_com_roo_team19_domain_Baggage_Price" property="price" z="3YjFQZ0fgaoP0B3j/dXGiU6aJXA="/>
+            <table:column id="c_com_roo_team19_domain_Baggage_Members" property="members" z="J3ctS78qtyFS9OAhnxHU3nkdMWo="/>
+            <table:column id="c_com_roo_team19_domain_Baggage_SeatNumber" property="seatNumber" z="oVwi6bMAvbhQaa6WjwAQj6iPBs0="/>
+            <table:column id="c_com_roo_team19_domain_Baggage_weightBag" property="weightBag" z="mjKOkAoTbJdSP/YwWYA07pc2t9A="/>
+            <table:column id="c_com_roo_team19_domain_Baggage_Baggage_name" property="baggage_name" z="TBu5O8SIcwovCuYHruh7TKhMffI="/>
+        </table:table>
+    </page:list>
+</div>

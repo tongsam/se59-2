@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_team19_domain_SelectFood" object="${selectfood}" path="/selectfoods" z="7ffKzCB/k/tGCpQhJ4E7L72ZDac=">
+        <field:display field="foodSelect" id="s_com_roo_team19_domain_SelectFood_foodSelect" object="${selectfood}" z="W30KOX3mAB+1fWDkzi0Vsg2ZZGU="/>
+        <field:display field="drinkSelct" id="s_com_roo_team19_domain_SelectFood_drinkSelct" object="${selectfood}" z="Jm+DDE8AoP/SVM/GHNBAjFvJws4="/>
+        <field:display field="members" id="s_com_roo_team19_domain_SelectFood_members" object="${selectfood}" z="JpXkpf7RGS5eN7GlBPbx2/r7S/M="/>
+        <field:display field="seatnumber" id="s_com_roo_team19_domain_SelectFood_seatnumber" object="${selectfood}" z="DEvqMvT5JteP7tlcXP9K5KQRdNI="/>
+        <field:display field="price" id="s_com_roo_team19_domain_SelectFood_price" object="${selectfood}" z="5aF5Owsa8otbqeF9xeMJ5IcciHo="/>
+        <field:display field="orderId" id="s_com_roo_team19_domain_SelectFood_orderId" object="${selectfood}" z="zx0pTC0IVWBIzdR93T/JSf1oBGE="/>
+    </page:show>
+</div>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_roo_team19_domain_Ticket" modelAttribute="ticket" path="/tickets" render="${empty dependencies}" z="qjBwFQ3+WsNfuqQRykubO2b1SSw=">
+        <field:input field="ticket_id" id="c_com_roo_team19_domain_Ticket_ticket_id" required="true" validationRegex="\\d{7}" z="/UBXrjYmvZyXKW7TDw8Nd+6jN74="/>
+        <field:select field="membertk" id="c_com_roo_team19_domain_Ticket_membertk" itemValue="id" items="${memberses}" path="/memberses" z="haYbHh7eMbYQfY3qtyTsdoYQ2jM="/>
+        <field:select field="seattk" id="c_com_roo_team19_domain_Ticket_seattk" itemValue="id" items="${seats}" path="/seats" z="K16n5zoCkrUs5+V5i7o1G6txkcM="/>
+        <field:select field="flightonetk" id="c_com_roo_team19_domain_Ticket_flightonetk" itemValue="id" items="${flightoneways}" path="/flightoneways" z="Qu3yb/Aqry/LprGa5/cpksdF4QU="/>
+        <field:select field="baggagetk" id="c_com_roo_team19_domain_Ticket_baggagetk" itemValue="id" items="${baggages}" path="/baggages" z="KIEQ7cYe3ohPHezmMTCcEBb1tvw="/>
+        <field:select field="selectfoodtk" id="c_com_roo_team19_domain_Ticket_selectfoodtk" itemValue="id" items="${selectfoods}" path="/selectfoods" z="kL5s5WE/OUDmAaaq/z1zMAe+Kv0="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_roo_team19_domain_Ticket" render="${not empty dependencies}" z="ZmRbysDenb2RKbTSleieRvjRHV0="/>
+</div>

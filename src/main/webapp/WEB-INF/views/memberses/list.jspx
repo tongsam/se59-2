@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_team19_domain_Members" items="${memberses}" z="eGe7WbgYty5SeNBSykv4tUViYMw=">
+        <table:table data="${memberses}" id="l_com_roo_team19_domain_Members" path="/memberses" z="UpHDJcP6WTO2xMCK7sECehe74KY=">
+            <table:column id="c_com_roo_team19_domain_Members_username" property="username" z="2P0e0/3yJZTvYCY5JMJmFBJ0xSI="/>
+            <table:column id="c_com_roo_team19_domain_Members_password" property="password" z="Bb+tqx3deZIBabtxRKYF9CsF/Ss="/>
+            <table:column id="c_com_roo_team19_domain_Members_firstname" property="firstname" z="ZX5QkBdcEnTYAFi5wU1aoRGZ4yQ="/>
+            <table:column id="c_com_roo_team19_domain_Members_lastname" property="lastname" z="QOF/kZGiN8UGnJKpriC+ByPASNE="/>
+            <table:column id="c_com_roo_team19_domain_Members_gender" property="gender" z="sbZHjKX04tOZLkcTr7S2xusGf0o="/>
+            <table:column id="c_com_roo_team19_domain_Members_birthbay" property="birthbay" z="s8aqZojHaDue9XhhtQ/bUC70ZEE="/>
+        </table:table>
+    </page:list>
+</div>

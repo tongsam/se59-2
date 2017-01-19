@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_team19_domain_Members" object="${members}" path="/memberses" z="37SWtDnwzEx2hPmyuXBCukQPjAo=">
+        <field:display field="username" id="s_com_roo_team19_domain_Members_username" object="${members}" z="duygpRdLrXyrPQw66sIAnqdHgXo="/>
+        <field:display field="password" id="s_com_roo_team19_domain_Members_password" object="${members}" z="YP33kvmgX6QMbDwxojjZNL6EaUA="/>
+        <field:display field="firstname" id="s_com_roo_team19_domain_Members_firstname" object="${members}" z="H7izJY0VoAnAAClLf20Ex/nRvHU="/>
+        <field:display field="lastname" id="s_com_roo_team19_domain_Members_lastname" object="${members}" z="/A7cOd3gg8CHvDjmNUZjuqKKNMo="/>
+        <field:display field="gender" id="s_com_roo_team19_domain_Members_gender" object="${members}" z="sxbzJ+tZovtPqNqBIo1qq+7kLnU="/>
+        <field:display field="birthbay" id="s_com_roo_team19_domain_Members_birthbay" object="${members}" z="NZ7JSdhK1m7aSgYr54y6BOFfv6w="/>
+        <field:display field="phone" id="s_com_roo_team19_domain_Members_phone" object="${members}" z="lD5pHy7KPPVFgt40GbWtAtxiJtI="/>
+        <field:display field="email" id="s_com_roo_team19_domain_Members_email" object="${members}" z="2uwdH4Zp1h+XfsYNfCEkUcOYNZI="/>
+        <field:display field="address" id="s_com_roo_team19_domain_Members_address" object="${members}" z="UYaUFcFk+7wM5tPFZ7FUOAGgsQ0="/>
+    </page:show>
+</div>

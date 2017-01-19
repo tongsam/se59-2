@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_team19_domain_FlightOneWay" object="${flightoneway}" path="/flightoneways" z="+zWdCZrU1XVMBXGklutez7dmdec=">
+        <field:display field="froms" id="s_com_roo_team19_domain_FlightOneWay_Froms" object="${flightoneway}" z="157V4WcX7S5dOwk3yir+ckUjqt0="/>
+        <field:display field="tos" id="s_com_roo_team19_domain_FlightOneWay_Tos" object="${flightoneway}" z="VtSoS/Kuy+UJ8V/yAZzBlPmmGHM="/>
+        <field:display field="departs" id="s_com_roo_team19_domain_FlightOneWay_Departs" object="${flightoneway}" z="x/3Z4p+XpJtMYZmQWYqRokTj89U="/>
+        <field:display field="adults" id="s_com_roo_team19_domain_FlightOneWay_Adults" object="${flightoneway}" z="l4eo4rXRnWFRTIruwNNXem15brg="/>
+        <field:display field="childrens" id="s_com_roo_team19_domain_FlightOneWay_Childrens" object="${flightoneway}" z="z0grax/xL4TXAva95O4zVY5349o="/>
+        <field:display field="currencys" id="s_com_roo_team19_domain_FlightOneWay_currencys" object="${flightoneway}" z="NUmodFkN9rUl12e2KHda6jmwFAI="/>
+        <field:display field="members" id="s_com_roo_team19_domain_FlightOneWay_Members" object="${flightoneway}" z="cUiNb7aQk1k77FFpzRFTq++j2VI="/>
+        <field:display field="seatNumber" id="s_com_roo_team19_domain_FlightOneWay_SeatNumber" object="${flightoneway}" z="TmnU0+Vebgk0Depj43ctcpufN2s="/>
+        <field:display field="selectFoods" id="s_com_roo_team19_domain_FlightOneWay_SelectFoods" object="${flightoneway}" z="ZLJj3fr8JIhqEsyPsKmhFwUguQI="/>
+        <field:display field="flightId" id="s_com_roo_team19_domain_FlightOneWay_flightId" object="${flightoneway}" z="V6FjvxzMMZUsGT1qF4VhqkiLrE0="/>
+    </page:show>
+</div>

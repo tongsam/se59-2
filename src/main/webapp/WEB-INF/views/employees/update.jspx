@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_roo_team19_domain_Employee" modelAttribute="employee" path="/employees" versionField="Version" z="yQlFmV2pC1dS9OGTbXd8FPT94eo=">
+        <field:input field="EmployeeID" id="c_com_roo_team19_domain_Employee_EmployeeID" required="true" z="GvEahx6QxyPs9R40B6+ahPeYVtE="/>
+        <field:input field="FirstName" id="c_com_roo_team19_domain_Employee_FirstName" required="true" z="zq30EQs/z/RrXngWjeQ55wuBv2M="/>
+        <field:input field="LastName" id="c_com_roo_team19_domain_Employee_LastName" required="true" z="A5Tij33nFZXAhtN52F6AEQAJO+4="/>
+        <field:input field="Birthday" id="c_com_roo_team19_domain_Employee_Birthday" required="true" z="P79AsRE583hbl8I/a6Eo8TiUadw="/>
+        <field:input field="Gender" id="c_com_roo_team19_domain_Employee_Gender" required="true" z="6vW2N711FlO9RAGY4rOB+dZhMp4="/>
+        <field:input field="Username" id="c_com_roo_team19_domain_Employee_Username" required="true" z="ITIfE4eM2O7gEzmd0uROEpa+Q80="/>
+        <field:input field="Password" id="c_com_roo_team19_domain_Employee_Password" required="true" z="rK8OkQ35Q5u8BOfBRKtbAE+NcH4="/>
+    </form:update>
+</div>

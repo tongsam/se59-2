@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_team19_domain_Employee" object="${employee}" path="/employees" z="1kqQkKjmgCxWw8srJZ7jcQfThFE=">
+        <field:display field="employeeID" id="s_com_roo_team19_domain_Employee_EmployeeID" object="${employee}" z="JMF7cxnazsqCd182gwasxDhehHU="/>
+        <field:display field="firstName" id="s_com_roo_team19_domain_Employee_FirstName" object="${employee}" z="XYF2eflOcYMaSfFBkzMgLXcwjR0="/>
+        <field:display field="lastName" id="s_com_roo_team19_domain_Employee_LastName" object="${employee}" z="1dXa1lpaKFK+jNaRWQ+ikTV8IdY="/>
+        <field:display field="birthday" id="s_com_roo_team19_domain_Employee_Birthday" object="${employee}" z="lnPKGDt5tSyzgA/5PHuytKC5krU="/>
+        <field:display field="gender" id="s_com_roo_team19_domain_Employee_Gender" object="${employee}" z="W6vbNIut5SsgFrb9pkL7TlucvEQ="/>
+        <field:display field="username" id="s_com_roo_team19_domain_Employee_Username" object="${employee}" z="fGsZUqJ3SQNnDJsChR2G4fIkvRA="/>
+        <field:display field="password" id="s_com_roo_team19_domain_Employee_Password" object="${employee}" z="1KjuWtNpzEH7WrTTQ+glpx0QdfA="/>
+    </page:show>
+</div>

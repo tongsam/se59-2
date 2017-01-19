@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_roo_team19_domain_Baggage" modelAttribute="baggage" path="/baggages" render="${empty dependencies}" z="X6DRRnw9gYiyQFw88jc7bWuQguE=">
+        <field:input field="weightBag" id="c_com_roo_team19_domain_Baggage_weightBag" validationMessageCode="field_invalid_integer" z="H/kD41lHrUrPtQR4kHaMZ5l3Svs="/>
+        <field:input field="Price" id="c_com_roo_team19_domain_Baggage_Price" validationMessageCode="field_invalid_number" z="10KS3JXSPvxyjDpH5vCkdaDgYUc="/>
+        <field:select field="Members" id="c_com_roo_team19_domain_Baggage_Members" itemValue="id" items="${memberses}" path="/memberses" z="agI5mY4PgMVgXlYVKzikJvzlWLY="/>
+        <field:select field="SeatNumber" id="c_com_roo_team19_domain_Baggage_SeatNumber" itemValue="id" items="${seats}" path="/seats" z="JYvJMhhDuE5d6iRA7BCb65lTdII="/>
+        <field:input field="Baggage_name" id="c_com_roo_team19_domain_Baggage_Baggage_name" required="true" z="FotUwqFglSzE5Pt5ueHjhVkeojs="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_roo_team19_domain_Baggage" render="${not empty dependencies}" z="bGH0T6T87NL9VmdG8hae8SdHUh8="/>
+</div>

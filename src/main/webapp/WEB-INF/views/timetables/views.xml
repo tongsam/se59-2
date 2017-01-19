@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="timetables/list">
+        <put-attribute name="body" value="/WEB-INF/views/timetables/list.jspx"/>
+    </definition>
+<definition extends="default" name="timetables/show">
+        <put-attribute name="body" value="/WEB-INF/views/timetables/show.jspx"/>
+    </definition>
+<definition extends="default" name="timetables/create">
+        <put-attribute name="body" value="/WEB-INF/views/timetables/create.jspx"/>
+    </definition>
+<definition extends="default" name="timetables/update">
+        <put-attribute name="body" value="/WEB-INF/views/timetables/update.jspx"/>
+    </definition>
+<definition extends="default" name="timetables/findTimetablesByFlightIdsEquals">
+        <put-attribute name="body" value="/WEB-INF/views/timetables/findTimetablesByFlightIdsEquals.jspx"/>
+    </definition>
+</tiles-definitions>

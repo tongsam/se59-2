@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="newsonlines/list">
+        <put-attribute name="body" value="/WEB-INF/views/newsonlines/list.jspx"/>
+    </definition>
+<definition extends="default" name="newsonlines/show">
+        <put-attribute name="body" value="/WEB-INF/views/newsonlines/show.jspx"/>
+    </definition>
+<definition extends="default" name="newsonlines/create">
+        <put-attribute name="body" value="/WEB-INF/views/newsonlines/create.jspx"/>
+    </definition>
+<definition extends="default" name="newsonlines/update">
+        <put-attribute name="body" value="/WEB-INF/views/newsonlines/update.jspx"/>
+    </definition>
+<definition extends="default" name="newsonlines/findNewsOnlinesByNewsItemIdLike">
+        <put-attribute name="body" value="/WEB-INF/views/newsonlines/findNewsOnlinesByNewsItemIdLike.jspx"/>
+    </definition>
+</tiles-definitions>

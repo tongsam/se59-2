@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_roo_team19_domain_NewsOnline" modelAttribute="newsOnline" path="/newsonlines" versionField="Version" z="qGjzwE1NHnPBKOwUs0rC9Ao0XSs=">
+        <field:input field="newsItemId" id="c_com_roo_team19_domain_NewsOnline_newsItemId" required="true" z="XNL2cEM339vc7lGIi38gu2f+hb8="/>
+        <field:input field="newsContent" id="c_com_roo_team19_domain_NewsOnline_newsContent" z="z9d0kCgcCXPz7aGeIudgUPotyN4="/>
+        <field:datetime dateTimePattern="${newsOnline_timepost_date_format}" field="timePost" id="c_com_roo_team19_domain_NewsOnline_timePost" z="W1btsbzyeJT1r63vTKsP7s/8CgY="/>
+    </form:update>
+</div>

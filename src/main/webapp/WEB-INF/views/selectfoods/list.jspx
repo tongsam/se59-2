@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_team19_domain_SelectFood" items="${selectfoods}" z="OSWYcaMz0MIrQIutKrdNAcX3jYI=">
+        <table:table data="${selectfoods}" id="l_com_roo_team19_domain_SelectFood" path="/selectfoods" z="fjjOCTX1joIfnrEp5ErkgiETMTg=">
+            <table:column id="c_com_roo_team19_domain_SelectFood_foodSelect" property="foodSelect" z="BbE43E7zp/swCmIZbbrab9jzzJc="/>
+            <table:column id="c_com_roo_team19_domain_SelectFood_drinkSelct" property="drinkSelct" z="3piJkSy39JRZTXFtv8bYvOeK6xc="/>
+            <table:column id="c_com_roo_team19_domain_SelectFood_members" property="members" z="M1OuEIg1ydBJOnz9nssfsea1Z9Y="/>
+            <table:column id="c_com_roo_team19_domain_SelectFood_seatnumber" property="seatnumber" z="/qdtI+EpZsuGEjJ68YBuqcO1l0M="/>
+            <table:column id="c_com_roo_team19_domain_SelectFood_price" property="price" z="kNEsjpKEttgqLBmQOc/0I+ATbkw="/>
+            <table:column id="c_com_roo_team19_domain_SelectFood_orderId" property="orderId" z="EHyVDOYnz6KZy359SEBvtedQC0Q="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_team19_domain_Timetable" object="${timetable}" path="/timetables" z="t3fBKhaw9GKoD0wicO8gj/fQvLY=">
+        <field:display field="froms" id="s_com_roo_team19_domain_Timetable_Froms" object="${timetable}" z="bJSRw1KKwwCKhEUOy05mSGtsZFY="/>
+        <field:display field="tos" id="s_com_roo_team19_domain_Timetable_Tos" object="${timetable}" z="CLC/d2ggb0NWgKSLhPmuW87WtFs="/>
+        <field:display field="depart" id="s_com_roo_team19_domain_Timetable_Depart" object="${timetable}" z="7ICWBW9PWGr6/FUO007YWU4PeVU="/>
+        <field:display field="return_s" id="s_com_roo_team19_domain_Timetable_Return_s" object="${timetable}" z="J/mt8OmsI3nZ3Z4DPDk1cj0t0fU="/>
+        <field:display field="adults" id="s_com_roo_team19_domain_Timetable_Adults" object="${timetable}" z="yVt/VwuwkLEK6dHrqQexTo/BvgM="/>
+        <field:display field="children" id="s_com_roo_team19_domain_Timetable_Children" object="${timetable}" z="hIDb0gSTU1TYvAoqSUOXz6QtAZM="/>
+        <field:display field="membername" id="s_com_roo_team19_domain_Timetable_Membername" object="${timetable}" z="3VEQql3Xv5tjYAXaFUQlk7E+Lqo="/>
+        <field:display field="flightIds" id="s_com_roo_team19_domain_Timetable_flightIds" object="${timetable}" z="cDZ7h0fkd+EpGhr4pgg3jDyYx6E="/>
+    </page:show>
+</div>

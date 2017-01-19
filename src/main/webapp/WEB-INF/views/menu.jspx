@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_members" z="5ZTRvhIfJMNalVA+t05HgnbNxg4=">
+            <menu:item id="i_members_new" messageCode="global_menu_new" url="/memberses?form" z="yUKriKj7Dfx2glt/YrzPlgssWfM="/>
+            <menu:item id="i_members_list" messageCode="global_menu_list" url="/memberses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="SEyTkI0/SuExpXLuDMK0gk7uILk="/>
+            <menu:item id="fi_members_firstnamelike" messageCode="global_menu_find" url="/memberses?find=ByFirstnameLike&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="dfQHIKseH+Y2TFJKxMfFvmgymFI="/>
+        </menu:category>
+        <menu:category id="c_seat" z="x4SYX81pMBwZW+5DAjIaGiHwzxM=">
+            <menu:item id="i_seat_new" messageCode="global_menu_new" url="/seats?form" z="oKT41dFBuApAyylX3lCtkVXaPZw="/>
+            <menu:item id="i_seat_list" messageCode="global_menu_list" url="/seats?page=1&amp;size=${empty param.size ? 10 : param.size}" z="65nWo6M0YLCXburhMizbJS+pPVI="/>
+            <menu:item id="fi_seat_seatlike" messageCode="global_menu_find" url="/seats?find=BySeatLike&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="GaLShHDS/thdGhuE2u0J4sEUO6w="/>
+        </menu:category>
+        <menu:category id="c_selectfood" z="HtjBPqHsi0sXDf9A9Xg55Uy13S0=">
+            <menu:item id="i_selectfood_new" messageCode="global_menu_new" url="/selectfoods?form" z="iK2AjBL0ZUiZUyioktssbteR6rA="/>
+            <menu:item id="i_selectfood_list" messageCode="global_menu_list" url="/selectfoods?page=1&amp;size=${empty param.size ? 10 : param.size}" z="8/L3P9pjiG9JTM5aW4yAW6fOiVg="/>
+            <menu:item id="fi_selectfood_orderidlike" messageCode="global_menu_find" url="/selectfoods?find=ByOrderIdLike&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="uxIrfDHptLchawQiq6kc42ohuuQ="/>
+        </menu:category>
+        <menu:category id="c_flightoneway" z="h5Lpd6GH3RkNgmprdtZhmHmZ+js=">
+            <menu:item id="i_flightoneway_new" messageCode="global_menu_new" url="/flightoneways?form" z="33V2NxODj0m5PKxHJxiUT9siI1g="/>
+            <menu:item id="i_flightoneway_list" messageCode="global_menu_list" url="/flightoneways?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Me/3cN71TDGUhWztkWfDTGt6f5w="/>
+            <menu:item id="fi_flightoneway_flightidequals" messageCode="global_menu_find" url="/flightoneways?find=ByFlightIdEquals&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="7P/M067n6Nrb6R0YYdNJ9JS6YXI="/>
+        </menu:category>
+        <menu:category id="c_timetable" z="SOsejvLTYI2U+NnWnVGmG3xDyo8=">
+            <menu:item id="i_timetable_new" messageCode="global_menu_new" url="/timetables?form" z="MDhLtsSdlw1mn3721EJweftFrHM="/>
+            <menu:item id="i_timetable_list" messageCode="global_menu_list" url="/timetables?page=1&amp;size=${empty param.size ? 10 : param.size}" z="BH8BrWqhcVDoLZlqn2LGXAKXER0="/>
+            <menu:item id="fi_timetable_flightidsequals" messageCode="global_menu_find" url="/timetables?find=ByFlightIdsEquals&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="BvVhrmwgUNaU8DoSg69/8kS3xlI="/>
+        </menu:category>
+        <menu:category id="c_baggage" z="pNH3xZYuIfqNnnFKeJL8mOhXXec=">
+            <menu:item id="i_baggage_new" messageCode="global_menu_new" url="/baggages?form" z="yp6QAPcRxUI/ZCi6mh79AoqiAuE="/>
+            <menu:item id="i_baggage_list" messageCode="global_menu_list" url="/baggages?page=1&amp;size=${empty param.size ? 10 : param.size}" z="eYCuejA7AMQYsbIBBkViYUZEB+M="/>
+            <menu:item id="fi_baggage_weightbagequals" messageCode="global_menu_find" url="/baggages?find=ByWeightBagEquals&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="p+GC79+yYkSAAKgDMKtuoxzyfFE="/>
+        </menu:category>
+        <menu:category id="c_ticket" z="G7VU8CiWnuCkHh/K83Evm60Xaek=">
+            <menu:item id="i_ticket_new" messageCode="global_menu_new" url="/tickets?form" z="ihGqymjWfNKoS9yitLIwy8upZkY="/>
+            <menu:item id="i_ticket_list" messageCode="global_menu_list" url="/tickets?page=1&amp;size=${empty param.size ? 10 : param.size}" z="kWJCiMz/kWtExHSzsKHZ9hXpK3M="/>
+            <menu:item id="fi_ticket_ticket_idlike" messageCode="global_menu_find" url="/tickets?find=ByTicket_idLike&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="Zjp2Yg/MDicW28atwm3jrQyoqCo="/>
+        </menu:category>
+        <menu:category id="c_employee" z="sxLyQbJ/qSw9Reoi1NHvJhkZ/rU=">
+            <menu:item id="i_employee_new" messageCode="global_menu_new" url="/employees?form" z="+S/pgOAdANt9JPGnS20kM8qTu00="/>
+            <menu:item id="i_employee_list" messageCode="global_menu_list" url="/employees?page=1&amp;size=${empty param.size ? 10 : param.size}" z="IfTXfF5mBLDCW+DUkfuN3Wgvias="/>
+        </menu:category>
+        <menu:category id="c_newsonline" z="7j78kSNjpg2vd5qrtOA5yYAAXXU=">
+            <menu:item id="i_newsonline_new" messageCode="global_menu_new" url="/newsonlines?form" z="CcPfQod43aTK4V1uWp/dt600AQs="/>
+            <menu:item id="i_newsonline_list" messageCode="global_menu_list" url="/newsonlines?page=1&amp;size=${empty param.size ? 10 : param.size}" z="pdqUrJydDCglr1jhnmM3KVAXXAA="/>
+            <menu:item id="fi_newsonline_newsitemidlike" messageCode="global_menu_find" url="/newsonlines?find=ByNewsItemIdLike&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="nOmoAhCOl49QhSoRKgKJ+YJA+js="/>
+        </menu:category>
+    </menu:menu>
+</div>

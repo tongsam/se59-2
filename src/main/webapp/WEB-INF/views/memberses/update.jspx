@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_roo_team19_domain_Members" modelAttribute="members" path="/memberses" versionField="Version" z="VrVPjJLVlJbDUMb+g14zX/7cFoA=">
+        <field:input field="username" id="c_com_roo_team19_domain_Members_username" required="true" z="uz8WxSZk6qj9K0A5msE3kbtQbH4="/>
+        <field:input field="password" id="c_com_roo_team19_domain_Members_password" required="true" z="soO9OGSCpQ0Kee8pCQj/55emcNA="/>
+        <field:input field="firstname" id="c_com_roo_team19_domain_Members_firstname" required="true" z="z87WluAmmjXiC85ZynwpkHJ4qOw="/>
+        <field:input field="lastname" id="c_com_roo_team19_domain_Members_lastname" required="true" z="b+Pebd6c0+OHm21tA2iVOlx6jI8="/>
+        <field:input field="gender" id="c_com_roo_team19_domain_Members_gender" required="true" z="AJGuQfgSU8jcj7lvkFXcQzcaZt4="/>
+        <field:input field="birthbay" id="c_com_roo_team19_domain_Members_birthbay" required="true" z="W9xVmYYQOP5F8QP+G3ivm1QoQmA="/>
+        <field:input field="phone" id="c_com_roo_team19_domain_Members_phone" required="true" z="M0QRDVo2dnrXVIGgpzaX7lUZ9Ac="/>
+        <field:input field="email" id="c_com_roo_team19_domain_Members_email" required="true" validationMessageCode="field_invalid_email" z="2S1H8+omuhjaBT2PJFpmf+FIqcY="/>
+        <field:input field="address" id="c_com_roo_team19_domain_Members_address" required="true" z="yT73AQxvufutlRCJ9MHT9BobgnM="/>
+    </form:update>
+</div>

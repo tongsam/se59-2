@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_team19_domain_Employee" items="${employees}" z="wEkqqzG3xZeWKxeUztiCEzhNwfI=">
+        <table:table data="${employees}" id="l_com_roo_team19_domain_Employee" path="/employees" z="5FRDSDrcs4XkJMGABSrzdCHKP3I=">
+            <table:column id="c_com_roo_team19_domain_Employee_EmployeeID" property="employeeID" z="7UfjRX7jcq1kgOe1t3+T9CPSMRw="/>
+            <table:column id="c_com_roo_team19_domain_Employee_FirstName" property="firstName" z="gIP9awJRtW2VFc8AZuF2XZq9NKw="/>
+            <table:column id="c_com_roo_team19_domain_Employee_LastName" property="lastName" z="JwjM2PLdvGbgHgKFzpCNa3qgBpE="/>
+            <table:column id="c_com_roo_team19_domain_Employee_Birthday" property="birthday" z="f1c1/FL5r5AaqSkNf9v1r55hQY0="/>
+            <table:column id="c_com_roo_team19_domain_Employee_Gender" property="gender" z="hyn2xJ+ICxmBEE/1WZ13SUxkNEE="/>
+            <table:column id="c_com_roo_team19_domain_Employee_Username" property="username" z="IITqEzzmSI6KgfpUQuW6ST49lu8="/>
+        </table:table>
+    </page:list>
+</div>

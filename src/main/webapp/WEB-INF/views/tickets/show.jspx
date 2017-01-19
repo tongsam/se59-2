@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_team19_domain_Ticket" object="${ticket}" path="/tickets" z="Fvb5LCW0ITpM/GrWgDEqmu0QmuU=">
+        <field:display field="ticket_id" id="s_com_roo_team19_domain_Ticket_ticket_id" object="${ticket}" z="MdfawQ7qbctoPr8eDWrbDFc4wXA="/>
+        <field:display field="membertk" id="s_com_roo_team19_domain_Ticket_membertk" object="${ticket}" z="B4BK9/AHNxSJh3BTy/rkHH8v1eQ="/>
+        <field:display field="seattk" id="s_com_roo_team19_domain_Ticket_seattk" object="${ticket}" z="jWK+6yxSPbcNE2kBoOHXAqLdKtU="/>
+        <field:display field="flightonetk" id="s_com_roo_team19_domain_Ticket_flightonetk" object="${ticket}" z="Vru0zthJk+zCbB63+p+jREaCmQU="/>
+        <field:display field="baggagetk" id="s_com_roo_team19_domain_Ticket_baggagetk" object="${ticket}" z="RVKxzl6a5h3NqRlxa0x1w2Rvnwg="/>
+        <field:display field="selectfoodtk" id="s_com_roo_team19_domain_Ticket_selectfoodtk" object="${ticket}" z="srZPJ2D+nOXfrsJ/N9+Y8V1FN2Q="/>
+    </page:show>
+</div>

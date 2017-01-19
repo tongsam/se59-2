@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_roo_team19_domain_Timetable" modelAttribute="timetable" path="/timetables" versionField="Version" z="1QBKmKu87vnn1HxHOBOnE5sQFjU=">
+        <field:input field="Froms" id="c_com_roo_team19_domain_Timetable_Froms" required="true" z="rkRz5yOQG6n0Mr8UKsxHmpBHfpU="/>
+        <field:input field="Tos" id="c_com_roo_team19_domain_Timetable_Tos" required="true" z="Q8kzF9yF6S8txULn4E3Ti8nBuXY="/>
+        <field:input field="Depart" id="c_com_roo_team19_domain_Timetable_Depart" required="true" z="zNxoy5EbRPLchmfJ5Ct2+Nhghws="/>
+        <field:input field="Return_s" id="c_com_roo_team19_domain_Timetable_Return_s" required="true" z="xH8x+QBH9cSZdQyib/KbcPfu8wQ="/>
+        <field:input field="Adults" id="c_com_roo_team19_domain_Timetable_Adults" required="true" z="/7CAyZOsvY9lFDp3L4kl6JTlCsM="/>
+        <field:input field="Children" id="c_com_roo_team19_domain_Timetable_Children" required="true" z="9Ik1zagSwbFMk+NdyZhTDuQ4L/0="/>
+        <field:select field="Membername" id="c_com_roo_team19_domain_Timetable_Membername" itemValue="id" items="${memberses}" path="/memberses" z="+gRsr0s/xsluWXpf/j1w6My44zs="/>
+        <field:input field="flightIds" id="c_com_roo_team19_domain_Timetable_flightIds" required="true" z="DRJ1isS+tOn2pPIvoWeGgUCEPYQ="/>
+    </form:update>
+</div>
